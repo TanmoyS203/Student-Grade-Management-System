@@ -6,6 +6,21 @@ class Student {
     private char grade;
     private static int idCounter = 1;
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getAverage() {
+        return average;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
     public Student(String name, int[] marks) {
         this.id = idCounter++;
         this.name = name;
