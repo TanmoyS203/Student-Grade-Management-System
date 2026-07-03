@@ -1,61 +1,32 @@
-# ==========================================
-# IntelliJ IDEA / JetBrains specific files
-# ==========================================
+### IntelliJ IDEA ###
 .idea/
 *.iml
-*.iws
-*.ipr
 out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
 
-# ==========================================
-# Java build tools and artifacts
-# ==========================================
-# Compiled class files
-*.class
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Log files
-*.log
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# BlueJ files
-*.ctxt
+### VS Code ###
+.vscode/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files (if you build jars locally, don't push them)
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# ==========================================
-# Maven specific files
-# ==========================================
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.next
-pom.xml.versionsBackup
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-
-# ==========================================
-# Gradle specific files
-# ==========================================
-.gradle/
-build/
-!gradle-wrapper.jar
-
-# ==========================================
-# Virtual Environments and OS files
-# ==========================================
+### Mac OS ###
 .DS_Store
-Thumbs.db
-.env
-.env.local
